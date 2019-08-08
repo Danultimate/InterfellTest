@@ -5,5 +5,5 @@ $id = $_GET['id'];
 $sql = 'DELETE FROM users WHERE id=:id';
 $statement = $connection->prepare($sql);
 if ($statement->execute([':id' => $id])) {
-  header("Location: /crud");
+  header("Location: https://interfell.herokuapp.com");
 }

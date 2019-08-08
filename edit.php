@@ -13,7 +13,7 @@ if (isset ($_POST['name'])  && isset($_POST['surname']) && isset($_POST['phone']
   $sql = 'UPDATE users SET name=:name, surname=:surname, phone=:phone, email=:email WHERE id=:id';
   $statement = $connection->prepare($sql);
   if ($statement->execute([':name' => $name, ':surname' => $surname, ':phone' => $phone, ':email' => $email, ':id' => $id])) {
-    header("Location: /crud");
+    header("Location: https://interfell.herokuapp.com");
   }
 
 
