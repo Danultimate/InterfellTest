@@ -1,5 +1,5 @@
 <?php
-$dsn = 'mysql:host=https://db4free.net;dbname=phpcrud_1';
+$dsn = 'mysql:host=db4free.net;port=3306;dbname=phpcrud_1';
 $username = 'interfell';
 $password = 'interfell';
 $options = [];
